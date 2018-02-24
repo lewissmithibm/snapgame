@@ -34,7 +34,8 @@ class snapFunctions{
 
       return $_GET[$xParam];
   }
-
+  //----------------------------------------------------------------------------------
+  //get the winner
   function getWinner($handsArray){
     //Array for "Played cards"
     $playedCards = array();
