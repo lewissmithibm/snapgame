@@ -11,7 +11,7 @@ $players = $snapFunctions->requestQS("players");
 
 //check player count is minimun 2
 if($players < 2){
-  echo "Player count must be > 2, you fool";
+  echo "Player count must be > 2";
   die;
 }
 
